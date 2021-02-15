@@ -1,0 +1,27 @@
+﻿@model List<CodingEvents.Models.Tag>
+
+<h1>All Event Tags</h1>
+
+@if (Model.Count == 0)
+{
+    <p>No tags yet!</p>
+    <p>
+        <a class="" asp-area="" asp-controller="Tag" asp-action="Add">Add new tag</a>
+    </p>
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Tag Name</th>
+        </tr>
+        @foreach (Tag tag in Model)
+        {
+            <tr>
+                <td>@tag.Id</td>
+                <td><a asp-controller="Tag" asp-action="Detail" asp-route-id="@tag.Id">@tag.Name</a></td>  @*clickable*@ 
+            </tr>
+        }
+    </table>
+}

@@ -1,0 +1,29 @@
+﻿@model CodingEvents.ViewModels.EventDetailViewModel
+
+<h1>@Model.Name</h1>
+
+<table class="table">
+    <tr>
+        <th>Description</th>
+        <td>@Model.Description</td>
+    </tr>
+    <tr>
+        <th>Contact Email</th>
+        <td>@Model.ContactEmail</td>
+    </tr>
+    <tr>
+        <th>Category</th>
+        <td>@Model.CategoryName</td>
+    </tr>
+    <tr>
+        <th>Tags</th>
+        <td>@Model.TagText</td>
+    </tr>
+
+</table>
+
+<a class="" asp-area="" asp-controller="Tag" asp-action="AddEvent" asp-route-id="@Model.EventId">Add tag</a> @*Checkout asp-route-id*@
+
+@*asp-route-id="@Model.EventId" - This creates a URL of the form /Tag/AddEvent/X, where X is the ID of the given event*@
+
+@*TODO add more details next*@
