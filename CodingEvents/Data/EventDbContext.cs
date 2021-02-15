@@ -1,4 +1,6 @@
 ﻿using CodingEvents.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CodingEvents.Data
 {
-    public class EventDbContext : DbContext
+    public class EventDbContext : IdentityDbContext<IdentityUser> // changed from DbContext
     {
         public DbSet<Event> Events { get; set; }
         public DbSet<EventCategory> Categories { get; set; }
@@ -23,6 +25,8 @@ namespace CodingEvents.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<EventTag>().HasKey(et => new {et.EventId, et.TagId }); // pair for event id and tag id
+
+            base.OnModelCreating(modelBuilder); //added feb15 - lesson on authentication
         }
     }
 }
