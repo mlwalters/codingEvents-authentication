@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\racir\\source\\repos\\LaunchCode\\csharpClass15sqlORM\\practice-copyOfMVCCodingEventsWithmySQLpassword\\CodingEvents\\CodingEvents.csproj": {}
+    "C:\\Users\\racir\\source\\repos\\LaunchCode\\csharpClass18Authentication\\codingEventsWithAuthentication\\CodingEvents\\CodingEvents.csproj": {}
   },
   "projects": {
-    "C:\\Users\\racir\\source\\repos\\LaunchCode\\csharpClass15sqlORM\\practice-copyOfMVCCodingEventsWithmySQLpassword\\CodingEvents\\CodingEvents.csproj": {
+    "C:\\Users\\racir\\source\\repos\\LaunchCode\\csharpClass18Authentication\\codingEventsWithAuthentication\\CodingEvents\\CodingEvents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\racir\\source\\repos\\LaunchCode\\csharpClass15sqlORM\\practice-copyOfMVCCodingEventsWithmySQLpassword\\CodingEvents\\CodingEvents.csproj",
+        "projectUniqueName": "C:\\Users\\racir\\source\\repos\\LaunchCode\\csharpClass18Authentication\\codingEventsWithAuthentication\\CodingEvents\\CodingEvents.csproj",
         "projectName": "CodingEvents",
-        "projectPath": "C:\\Users\\racir\\source\\repos\\LaunchCode\\csharpClass15sqlORM\\practice-copyOfMVCCodingEventsWithmySQLpassword\\CodingEvents\\CodingEvents.csproj",
+        "projectPath": "C:\\Users\\racir\\source\\repos\\LaunchCode\\csharpClass18Authentication\\codingEventsWithAuthentication\\CodingEvents\\CodingEvents.csproj",
         "packagesPath": "C:\\Users\\racir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\racir\\source\\repos\\LaunchCode\\csharpClass15sqlORM\\practice-copyOfMVCCodingEventsWithmySQLpassword\\CodingEvents\\obj\\",
+        "outputPath": "C:\\Users\\racir\\source\\repos\\LaunchCode\\csharpClass18Authentication\\codingEventsWithAuthentication\\CodingEvents\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\racir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,11 +42,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.11, )"
+              "version": "[3.1.8, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[3.1.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
