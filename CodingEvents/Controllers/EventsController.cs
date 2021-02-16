@@ -7,9 +7,11 @@ using CodingEvents.Models;
 using CodingEvents.Data;
 using CodingEvents.ViewModels;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CodingEvents.Controllers                      // CONTINUATION OF CLASS 10,11 VIEWS & MODELS
 {
+    [Authorize]
     public class EventsController : Controller
     {
         // TODO Modify Edit feature
@@ -22,6 +24,7 @@ namespace CodingEvents.Controllers                      // CONTINUATION OF CLASS
         }
 
         // GET : /<controller>/
+        [AllowAnonymous]
         public IActionResult Index()
         {
             // List<Event> events = new List<Event>(EventData.GetAll());

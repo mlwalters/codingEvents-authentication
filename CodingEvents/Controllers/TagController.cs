@@ -7,9 +7,11 @@ using CodingEvents.Data;
 using CodingEvents.Models;
 using CodingEvents.ViewModels;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CodingEvents.Controllers
 {
+    [Authorize]
     public class TagController : Controller
     {
 
@@ -21,6 +23,7 @@ namespace CodingEvents.Controllers
         }
 
         // GET: /<controller>/
+        [AllowAnonymous]
         public IActionResult Index()
         {
             List<Tag> tags = context.Tags.ToList();

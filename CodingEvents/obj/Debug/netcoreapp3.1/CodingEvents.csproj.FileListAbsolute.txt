@@ -330,3 +330,12 @@ C:\Users\racir\source\repos\LaunchCode\csharpClass18Authentication\codingEventsW
 C:\Users\racir\source\repos\LaunchCode\csharpClass18Authentication\codingEventsWithAuthentication\CodingEvents\obj\Debug\netcoreapp3.1\CodingEvents.Views.pdb
 C:\Users\racir\source\repos\LaunchCode\csharpClass18Authentication\codingEventsWithAuthentication\CodingEvents\obj\Debug\netcoreapp3.1\CodingEvents.csproj.CopyComplete
 C:\Users\racir\source\repos\LaunchCode\csharpClass18Authentication\codingEventsWithAuthentication\CodingEvents\obj\Debug\netcoreapp3.1\CodingEvents.genruntimeconfig.cache
+C:\Users\racir\source\repos\LaunchCode\csharpClass18Authentication\codingEventsWithAuthentication\CodingEvents\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\racir\source\repos\LaunchCode\csharpClass18Authentication\codingEventsWithAuthentication\CodingEvents\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\racir\source\repos\LaunchCode\csharpClass18Authentication\codingEventsWithAuthentication\CodingEvents\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\racir\source\repos\LaunchCode\csharpClass18Authentication\codingEventsWithAuthentication\CodingEvents\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+C:\Users\racir\source\repos\LaunchCode\csharpClass18Authentication\codingEventsWithAuthentication\CodingEvents\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\racir\source\repos\LaunchCode\csharpClass18Authentication\codingEventsWithAuthentication\CodingEvents\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\racir\source\repos\LaunchCode\csharpClass18Authentication\codingEventsWithAuthentication\CodingEvents\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\racir\source\repos\LaunchCode\csharpClass18Authentication\codingEventsWithAuthentication\CodingEvents\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\racir\source\repos\LaunchCode\csharpClass18Authentication\codingEventsWithAuthentication\CodingEvents\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs

@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 using CodingEvents.Data;
 using CodingEvents.Models;
 using CodingEvents.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CodingEvents.Controllers
 {
+    [Authorize]
     public class EventCategoryController : Controller
     {
 
@@ -20,6 +22,7 @@ namespace CodingEvents.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public IActionResult Index()
         {
             //ViewBag.title = "All Categories";
